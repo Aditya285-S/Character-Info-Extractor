@@ -27,7 +27,7 @@ pip install -r requirements.txt
 ```
 
 ## Create .env file and declare API keys
--.env
+- .env
 ```bash
 GROQ_API = <your_api_key>
 MISTRAL_API = <your_mistral_api_key>
