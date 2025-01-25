@@ -6,12 +6,6 @@
 git clone https://github.com/Aditya285-S/Character-Info-Extractor
 ```
 
-## Download requirements
-
-```bash
-pip install -r requirements.txt
-```
-
 ## Create Virtual Environment
 
 ```bash
@@ -24,6 +18,19 @@ virtualenv <env-name>
 
 ```bash
 ./<env-name>/scripts/activate
+```
+
+## Download requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+## Create .env file and declare API keys
+-.env
+```bash
+GROQ_API = <your_api_key>
+MISTRAL_API = <your_mistral_api_key>
 ```
 
 ## CLI Command 1: compute-embedding
